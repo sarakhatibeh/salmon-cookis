@@ -5,6 +5,14 @@ table,tr,th,td{
     font-size: x-large;
 
 }
+body{
+    border: 5px solid brown;
+    background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470;) 
+}
+
+#slide {
+    border: 3px solid brown;
+}
 
 h1 {
     text-align: center;
@@ -33,10 +41,80 @@ header img {
      padding: 35px;
  }
  
- #hour {
-     /* margin: 20px; */
+ /* #hour {
+     margin: 20px;
 
- }
+ } */
+
  p {
      font-weight: bold;
  }
+
+
+
+
+
+ /* #seconed {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+ }
+
+ #seconed {
+     display: none;
+
+ }
+
+ .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  #silde {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes slide {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes silde  {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */

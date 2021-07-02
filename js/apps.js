@@ -75,10 +75,10 @@ Location.prototype.render = function () {
 }
 
 
-
+let trFoot;
 
 function creatFooter() {
-    let trFoot = document.createElement('tfoot');
+   trFoot = document.createElement('tfoot');
     let tdEl = document.createElement('td');
     tdEl.textContent = "Total";
     trFoot.appendChild(tdEl);
@@ -102,6 +102,7 @@ function creatFooter() {
     let totalTdEl = document.createElement('td');
     totalTdEl.textContent = megaT;
     trFoot.appendChild(totalTdEl);
+
 }
 
 
@@ -123,12 +124,26 @@ function fun1(event) {
 
     let avg = event.target.avg.value;
 
+ 
+
     let sName1 = new Location(sName, Number(minNum), Number(maxNum), avg);
     sName1.customers();
     sName1.render();
     console.log(sName1);
+   
+    // if(array1.length>5){
+        // let trFoot = document.createElement('tfoot');
+        trFoot.textContent='';
+    creatFooter();
+
+    // }
+
+    
+  
+
 
 }
+
 
 
 
